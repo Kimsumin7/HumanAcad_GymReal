@@ -1,0 +1,124 @@
+html, body, h1, h2, h3, h4 {
+	font-family: "Lato", sans-serif
+}
+
+.mySlides {
+	display: none
+}
+
+.w3-tag, .fa {
+	cursor: pointer
+}
+
+.w3-tag {
+	height: 15px;
+	width: 15px;
+	padding: 0;
+	margin-top: 6px
+}
+
+.w3-row.w3-large.w3-light-grey {
+	text-align: center;
+}
+
+.w3-col {
+	width: 25%;
+	display: inline-block;
+}
+
+.w3-button.w3-block {
+	display: block;
+}
+
+.fixed-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+	z-index: 1000;
+}
+
+.search-container {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.search-input {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 250px;
+}
+
+.search-button {
+	padding: 10px 20px;
+	background-color: light-grey;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.event-button {
+	display: flex;
+	justify-content: flex-end;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+	width: 80px;
+}
+
+.bordered, th, td {
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+}
+/* .bordered, th, td { */
+/* 	border-collapse: collapse; */
+/* 	border: 1px solid white; */
+/* } */
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+	z-index: 1000;
+	height: 200px;
+}
+
+table#employees {
+/* 	margin-bottom: 200px; */
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+ 	margin-bottom: 200px; 
+}
+
+#insertTable {
+	border: 1px solid white !important;
+	margin: 0 auto;
+	width: 300px;
+}
+
+#tablediv {
+	text-align: center;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+input[type="submit"] {
+    background-color: light-grey;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+/* table#center { */
+/*     margin-bottom: 200px; footer의 높이와 동일한 값으로 설정 */
+/* } */
